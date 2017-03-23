@@ -38,3 +38,30 @@ body {
 
 .sass:hover {
   color: #b4868f; }
+
+#quatch-1:hover {
+  color: #700000; }
+
+#quatch-2:hover {
+  color: #a30000; }
+
+#quatch-3:hover {
+  color: #d60000; }
+
+#quatch-4:hover {
+  color: #ff0a0a; }
+
+#quatch-5:hover {
+  color: #ff3d3d; }
+
+#quatch-6:hover {
+  color: #ff7070; }
+
+header {
+  display: flex; }
+
+#combination, #gradient {
+  display: inline-block;
+  margin: 20px;
+  border: 20px;
+  text-align: center; }

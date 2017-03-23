@@ -2,6 +2,7 @@ $primarycolor: #1fffb8;
 $primaryfont:'Slackey', cursive;
 $combine1: #691fff;
 $combine2: #ffec1f;
+$quatch: #700000;
 
 
 
@@ -53,4 +54,32 @@ body{
 
 .sass:hover{
   color: mix($combine1, $combine2)
+}
+
+#quatch-1:hover{
+  color: $quatch;
+}
+#quatch-2:hover{
+  color: lighten($quatch, 10);
+}
+#quatch-3:hover{
+  color: lighten($quatch, 20);
+}
+#quatch-4:hover{
+  color: lighten($quatch, 30);
+}
+#quatch-5:hover{
+  color: lighten($quatch, 40);
+}
+#quatch-6:hover{
+  color: lighten($quatch, 50);
+}
+header{
+  display: flex;
+}
+#combination, #gradient{
+  display: inline-block;
+  margin: 20px;
+  border: 20px;
+  text-align: center;
 }
