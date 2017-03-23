@@ -48,4 +48,4 @@ Mixins: reusable sets of properties, these can also contain nested rules (like f
 
 $ npm install --save node-sass
 
-$npm run watch-css
+$ npm run watch-css
