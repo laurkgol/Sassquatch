@@ -2,16 +2,17 @@ $primarycolor: #1fffb8;
 $primaryfont: 'Slackey', cursive;
 $combine1: #691fff;
 $combine2: #ffec1f;
-
 $numStairs: 10;
+
 @for $i from 1 through $numStairs {
     #stair-#{$i} {
         background-color: white;
         width: 5%;
         display: inline-block;
-        height: 0 + ($i * 30);
+        height: 0 + ($i * 30)+px;
     }
 }
+
 @function textShadow($offset, $color) {
     $text-shadow: ();
     @for $i from 0 through $offset {
@@ -117,12 +118,24 @@ img {
     color: mix($combine1, $combine2);
 }
 
-@for $i from 1 through 6 {
-#quatch-#{$i}:hover {
-  color: lighten($quatch, ($i + 10));
+#quatch-1:hover{
+   color: $quatch;
+ }
+ #quatch-2:hover{
+   color: lighten($quatch, 10);
+ }
+ #quatch-3:hover{
+   color: lighten($quatch, 20);
+ }
+ #quatch-4:hover{
+   color: lighten($quatch, 30);
+ }
+ #quatch-5:hover{
+   color: lighten($quatch, 40);
+ }
+ #quatch-6:hover{
+   color: lighten($quatch, 50);
 }
-}
-
 header{
   display: flex;
 }

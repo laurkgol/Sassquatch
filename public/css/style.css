@@ -2,61 +2,61 @@
   background-color: white;
   width: 5%;
   display: inline-block;
-  height: 30; }
+  height: 30px; }
 
 #stair-2 {
   background-color: white;
   width: 5%;
   display: inline-block;
-  height: 60; }
+  height: 60px; }
 
 #stair-3 {
   background-color: white;
   width: 5%;
   display: inline-block;
-  height: 90; }
+  height: 90px; }
 
 #stair-4 {
   background-color: white;
   width: 5%;
   display: inline-block;
-  height: 120; }
+  height: 120px; }
 
 #stair-5 {
   background-color: white;
   width: 5%;
   display: inline-block;
-  height: 150; }
+  height: 150px; }
 
 #stair-6 {
   background-color: white;
   width: 5%;
   display: inline-block;
-  height: 180; }
+  height: 180px; }
 
 #stair-7 {
   background-color: white;
   width: 5%;
   display: inline-block;
-  height: 210; }
+  height: 210px; }
 
 #stair-8 {
   background-color: white;
   width: 5%;
   display: inline-block;
-  height: 240; }
+  height: 240px; }
 
 #stair-9 {
   background-color: white;
   width: 5%;
   display: inline-block;
-  height: 270; }
+  height: 270px; }
 
 #stair-10 {
   background-color: white;
   width: 5%;
   display: inline-block;
-  height: 300; }
+  height: 300px; }
 
 h1 {
   font-family: "Slackey", cursive;
@@ -125,22 +125,22 @@ img {
   color: #b4868f; }
 
 #quatch-1:hover {
-  color: #a80000; }
+  color: #700000; }
 
 #quatch-2:hover {
-  color: #ad0000; }
+  color: #a30000; }
 
 #quatch-3:hover {
-  color: #b20000; }
+  color: #d60000; }
 
 #quatch-4:hover {
-  color: #b70000; }
+  color: #ff0a0a; }
 
 #quatch-5:hover {
-  color: #bd0000; }
+  color: #ff3d3d; }
 
 #quatch-6:hover {
-  color: #c20000; }
+  color: #ff7070; }
 
 header {
   display: flex; }
