@@ -4,7 +4,12 @@ $combine1: #691fff;
 $combine2: #ffec1f;
 $quatch: #700000;
 
-
+@mixin divs{
+    display: inline-block;
+    margin: 20px;
+    border: 20px;
+    text-align: center;
+}
 
 h1{
   font:{
@@ -64,8 +69,5 @@ header{
   display: flex;
 }
 #combination, #gradient{
-  display: inline-block;
-  margin: 20px;
-  border: 20px;
-  text-align: center;
+  @include divs;
 }
