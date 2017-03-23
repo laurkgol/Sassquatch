@@ -1,22 +1,18 @@
 # Sassquatch
 ## Why did you choose this subject?
-  We both enjoy front end development, especially css, and we have heard that Sass is like super-powered css.
+We both enjoy front end development, especially css, and we have heard that Sass is like super-powered css.
 
 ## How were you first made aware of it?
-  We have seen Sass in a lot of job descriptions for front end devs, and have heard it mentioned a lot.
+We have seen Sass in a lot of job descriptions for front end devs, and have heard it mentioned a lot.
 
 ## What problem does it solve?
-  - How does it solve the problem (conceptually)?
+
 
 ## Why does one use it?
-  - What are the alternatives?
-  - What is it similar to, if anything?
-  Sass is a CSS preprocessor that makes your CSS code cleaner, shorter, and more maintainable. You can assign variables, nest styles, call functions, and use multiple stylesheets. Some alternatives to Sass are Stylus, LESS, and CSS-crush (built with PHP).
+Sass is a CSS preprocessor that makes your CSS code cleaner, shorter, and more maintainable. You can assign variables, nest styles, call functions, and use multiple stylesheets. Some alternatives to Sass are Stylus, LESS, and CSS-crush (built with PHP).
 
 ## What is the history of this technology?
-  - Who built it and why?
-  - Who is maintaining it?
-  Sass was designed by Hampton Catlin and developed by Natalie Weizenbaum and Chris Eppstein. It first appeared in 2006 and is well maintained, with its most recent stable release in December 2016.
+Sass was designed by Hampton Catlin and developed by Natalie Weizenbaum and Chris Eppstein. It first appeared in 2006 and is well maintained, with its most recent stable release in December 2016.
 
 ## What is your opinion on the technology after having built something with it?
 We think it is a really powerful tool that would be useful for really big websites that need to be maintained, and it is easy to reassign a variable without having to change things one-by-one by searching through all the CSS.
@@ -29,8 +25,8 @@ https://medium.com/@brianhan/watch-compile-your-sass-with-npm-9ba2b878415b#.u4bo
 https://scotch.io/tutorials/getting-started-with-sass
 
 ## What article or forum was most helpful to you in learning this?
-  https://scotch.io/tutorials/getting-started-with-sass
-  This tutorial was very descriptive and helpful in understanding how SassScript works.
+https://scotch.io/tutorials/getting-started-with-sass
+This tutorial was very descriptive and helpful in understanding how SassScript works.
 
 ## What are 3 interview questions one might be asked about this technology?
 
@@ -46,8 +42,6 @@ Variables:
 Mixins: reusable sets of properties, these can also contain nested rules (like functions)
 & = this
 -calculations for width and color values
-
-
 
 # Installation Instructions
 
