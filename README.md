@@ -30,7 +30,9 @@ This tutorial was very descriptive and helpful in understanding how SassScript w
 
 ## What are 3 interview questions one might be asked about this technology?
 -What is the purpose of Mixins?
+
 -What can you assign to variables in Sass?
+
 -What is the sytax for assigning variables? 
 
 # Sass Tools
