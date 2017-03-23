@@ -6,7 +6,7 @@ We both enjoy front end development, especially css, and we have heard that Sass
 We have seen Sass in a lot of job descriptions for front end devs, and have heard it mentioned a lot.
 
 ## What problem does it solve?
-
+Sass organizes css code in an intuative way, makes it DRY, and allows for dynamic use of attributes.
 
 ## Why does one use it?
 Sass is a CSS preprocessor that makes your CSS code cleaner, shorter, and more maintainable. You can assign variables, nest styles, call functions, and use multiple stylesheets. Some alternatives to Sass are Stylus, LESS, and CSS-crush (built with PHP).
@@ -29,7 +29,9 @@ https://scotch.io/tutorials/getting-started-with-sass
 This tutorial was very descriptive and helpful in understanding how SassScript works.
 
 ## What are 3 interview questions one might be asked about this technology?
-
+-What is the purpose of Mixins?
+-What can you assign to variables in Sass?
+-What is the sytax for assigning variables? 
 
 # Sass Tools
 
@@ -40,10 +42,10 @@ Variables:
 -Assign variables to things like colors and fonts so if your branding changes you can change everything automatically
 
 Mixins: reusable sets of properties, these can also contain nested rules (like functions)
-& = this
--calculations for width and color values
+
 
 # Installation Instructions
 
-npm install --save node-sass
-npm run watch-css
+$ npm install --save node-sass
+
+$npm run watch-css
