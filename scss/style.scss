@@ -1,5 +1,56 @@
-$primarycolor: red;
+$primarycolor: #1fffb8;
+$primaryfont:'Slackey', cursive;
+$combine1: #691fff;
+$combine2: #ffec1f;
+
+
 
 h1{
+  font:{
+    family: $primaryfont;
+    size: 100px;
+  }
+  text-align: center;
+
+}
+
+main, header, footer{
+  height: 33%;
+}
+header, footer{
+  background-color: black;
+}
+main{
   background-color: $primarycolor;
+
+}
+body{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-content:center;
+  margin: 0 auto;
+  color: white;
+  font-family: sans-serif;
+}
+
+.combine{
+  height: 100px;
+  width: 100px;
+  border: 0px;
+  border-radius: 50%;
+  background-color: white;
+  display: inline-block;
+  margin: 10px;
+}
+
+#first-color{
+  background-color: $combine1;
+}
+#second-color{
+  background-color: $combine2;
+}
+
+.sass:hover{
+  color: mix($combine1, $combine2)
 }
