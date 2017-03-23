@@ -1,56 +1,108 @@
 $primarycolor: #1fffb8;
-$primaryfont:'Slackey', cursive;
+$primaryfont: 'Slackey', cursive;
 $combine1: #691fff;
 $combine2: #ffec1f;
-
-
-
-h1{
-  font:{
-    family: $primaryfont;
-    size: 100px;
-  }
-  text-align: center;
-
+$numStairs: 10;
+@for $i from 1 through $numStairs {
+    #stair-#{$i} {
+        background-color: white;
+        width: 5%;
+        display: inline-block;
+        height: 0 + ($i * 30);
+    }
+}
+@function textShadow($offset, $color) {
+    $text-shadow: ();
+    @for $i from 0 through $offset {
+        $string: ($i)+px ($i)+px 0 $color;
+        $text-shadow: append($text-shadow, $string, comma);
+    }
+    @return $text-shadow;
 }
 
-main, header, footer{
-  height: 33%;
-}
-header, footer{
-  background-color: black;
-}
-main{
-  background-color: $primarycolor;
-
-}
-body{
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-content:center;
-  margin: 0 auto;
-  color: white;
-  font-family: sans-serif;
+h1 {
+    font: {
+        family: $primaryfont;
+        size: 100px;
+    }
+    text-align: center;
+    text-shadow: textShadow(15, #fa466c);
 }
 
-.combine{
-  height: 100px;
-  width: 100px;
-  border: 0px;
-  border-radius: 50%;
-  background-color: white;
-  display: inline-block;
-  margin: 10px;
+footer,
+header,
+main {
+    height: 33%;
 }
 
-#first-color{
-  background-color: $combine1;
-}
-#second-color{
-  background-color: $combine2;
+footer,
+header {
+    background-color: black;
 }
 
-.sass:hover{
-  color: mix($combine1, $combine2)
+main {
+    background-color: $primarycolor;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    color: white;
+    font-family: sans-serif;
+}
+@keyframes climb {
+    0% {
+        left: 0;
+    }
+
+    25% {
+        left: 100px;
+        bottom: 40px;
+    }
+
+    50% {
+        left: 200px;
+        bottom: 80px;
+    }
+
+    75% {
+        left: 300px;
+        bottom: 130px;
+    }
+
+    100% {
+        left: 400px;
+        bottom: 180px;
+    }
+}
+
+img {
+    height: 200px;
+    position: relative;
+    animation-name: climb;
+    animation-duration: 3s;
+}
+
+.combine {
+    height: 100px;
+    width: 100px;
+    border: 0;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-block;
+    margin: 10px;
+}
+
+#first-color {
+    background-color: $combine1;
+}
+
+#second-color {
+    background-color: $combine2;
+}
+
+.sass:hover {
+    color: mix($combine1, $combine2);
 }

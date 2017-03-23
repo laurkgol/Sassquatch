@@ -9,10 +9,12 @@
 - Why does one use it?
   - What are the alternatives?
   - What is it similar to, if anything?
+  Sass is a CSS preprocessor that makes your CSS code cleaner, shorter, and more maintainable. You can assign variables, nest styles, call functions, and use multiple stylesheets. Some alternatives to Sass are Stylus, LESS, and CSS-crush (built with PHP).
 - What is the history of this technology?
   - Who built it and why?
   Developers Hampton Catlin and Nathan Weizenbaum wanted to create a better way to maintain a complicated stylesheet.
   - Who is maintaining it?
+  Sass was designed by Hampton Catlin and developed by Natalie Weizenbaum and Chris Eppstein. It first appeared in 2006 and is well maintained, with its most recent stable release in December 2016.
 - What is your opinion on the technology after having built something with it?
 - What are the biggest conceptual hurdles (if any) you encountered when researching this?
 - What resources do you recommend for interested students?
