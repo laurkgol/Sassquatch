@@ -2,6 +2,7 @@ $primarycolor: #1fffb8;
 $primaryfont: 'Slackey', cursive;
 $combine1: #691fff;
 $combine2: #ffec1f;
+
 $numStairs: 10;
 @for $i from 1 through $numStairs {
     #stair-#{$i} {
@@ -33,6 +34,15 @@ footer,
 header,
 main {
     height: 33%;
+}
+
+$quatch: #700000;
+
+@mixin divs{
+    display: inline-block;
+    margin: 20px;
+    border: 20px;
+    text-align: center;
 }
 
 footer,
@@ -105,4 +115,17 @@ img {
 
 .sass:hover {
     color: mix($combine1, $combine2);
+}
+
+@for $i from 1 through 6 {
+#quatch-#{$i}:hover {
+  color: lighten($quatch, ($i + 10));
+}
+}
+
+header{
+  display: flex;
+}
+#combination, #gradient{
+  @include divs;
 }
